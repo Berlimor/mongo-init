@@ -55,7 +55,7 @@ class _MongoWrapper:
                     }
                 ],
                 "components_schema_ids": None,                                            # Если это родительская операция и под нее надо сканить компоненты
-                "parent_schema_id": "243c1656438d41a8a640c92d19fdeb7b",                   # Если она включена в какую-то схему
+                "parent_schema_id": None,                   # Если она включена в какую-то схему
                 "schema_type": "complex",                                                  # short - весы, long - завод, complex - эндо старс
                 "erp_metadata": {"order_id": "00000", "water_id": "abc123"}
             })
